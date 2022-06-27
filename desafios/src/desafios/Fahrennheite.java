@@ -7,8 +7,8 @@ public class Fahrennheite {
     public static void main(String[] args) {
         
         String escolha = JOptionPane.showInputDialog("Qual temperatura você quer converter? (C) para celsius e (F) para fahrenheite");
-        
-        String temperatura = JOptionPane.showInputDialog("Digite a temperatura em Fahrennheit que será convertido para Celsius");
+
+        String temperatura = JOptionPane.showInputDialog("Digite a temperatura  que será convertida");
 
         float temp = Float.parseFloat(temperatura);
 
